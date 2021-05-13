@@ -1,0 +1,20 @@
+{
+  "name": "formreset.css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyankatsu0105/formreset.css.git"
+  },
+  "keywords": [],
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.netlify.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tyankatsu0105/formreset.css/issues"
+  },
+  "homepage": "https://github.com/tyankatsu0105/formreset.css#readme"
+}
