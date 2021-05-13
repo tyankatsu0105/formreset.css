@@ -1,20 +1,31 @@
 {
   "name": "formreset.css",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.0",
+  "description": "Reset styles for form parts",
+  "keywords": [
+    "css",
+    "sass",
+    "reset",
+    "form"
+  ],
+  "homepage": "https://github.com/tyankatsu0105/formreset.css#readme",
+  "bugs": {
+    "url": "https://github.com/tyankatsu0105/formreset.css/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tyankatsu0105/formreset.css.git"
   },
-  "keywords": [],
-  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.netlify.com/)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/tyankatsu0105/formreset.css/issues"
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.netlify.com/)",
+  "main": "formreset.css",
+  "files": [
+    "formreset.css"
+  ],
+  "scripts": {
+    "release": "shipjs prepare"
   },
-  "homepage": "https://github.com/tyankatsu0105/formreset.css#readme"
+  "devDependencies": {
+    "shipjs": "0.23.2"
+  }
 }

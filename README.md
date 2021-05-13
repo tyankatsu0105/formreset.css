@@ -1,5 +1,7 @@
 # Form Reset CSS
 
+[![deploy](https://img.shields.io/badge/deploy-🛳%20Ship.js-blue?style=flat)](https://github.com/algolia/shipjs)
+
 WIP
 
 # Inspired by
