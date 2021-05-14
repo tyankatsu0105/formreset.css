@@ -27,6 +27,12 @@ jobs:
           registry-url: "https://registry.npmjs.org"
           node-version: "12.x"
 
+      - name: Use Ruby 2.7
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 2.7
+          bundler-cache: true
+
       - name: Install dependencies
         if: steps.cache.outputs.cache-hit != 'true'
         run: npm ci
