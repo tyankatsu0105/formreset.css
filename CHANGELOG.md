@@ -1,3 +1,7 @@
+## [0.0.4](https://github.com/tyankatsu0105/formreset.css/compare/v0.0.3...v0.0.4) (2021-05-14)
+
+
+
 ## [0.0.3](https://github.com/tyankatsu0105/formreset.css/compare/v0.0.2...v0.0.3) (2021-05-14)
 
 
