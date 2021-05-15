@@ -6,6 +6,8 @@
     "css",
     "sass",
     "scss",
+    "less",
+    "stylus",
     "reset",
     "form"
   ],
@@ -26,14 +28,18 @@
   "scripts": {
     "release": "shipjs prepare",
     "build": "sh scripts/build.sh",
-    "build:all": "run-s build-css",
+    "build:all": "run-s build-css build-less build-stylus",
     "build-css": "run-s build:css build:css-min",
     "build:css": "sass --no-source-map -s compressed src/formreset.scss dist/formreset.min.css",
-    "build:css-min": "sass --no-source-map src/formreset.scss dist/formreset.css"
+    "build:css-min": "sass --no-source-map src/formreset.scss dist/formreset.css",
+    "build-less": "sass2less src/formreset.scss dist/formreset.less",
+    "build-stylus": "stylus --css dist/formreset.css dist/formreset.styl"
   },
   "devDependencies": {
+    "less-plugin-sass2less": "1.2.0",
     "npm-run-all": "4.1.5",
     "sass": "1.32.13",
-    "shipjs": "0.23.2"
+    "shipjs": "0.23.2",
+    "stylus": "0.54.8"
   }
 }
