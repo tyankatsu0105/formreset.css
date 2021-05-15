@@ -1,9 +1,24 @@
-a {
-  text-decoration: none;
-  color: red;
-  border-top: 1px solid #000;
+// strongly influenced by　https://gist.github.com/anthonyshort/552543
 
-  p {
-    font-size: 20px;
-  }
+/*--------------------------------
+
+formreset.css
+
+Support tags: (https://html.spec.whatwg.org/multipage/forms.html#categories)
+- [ ] button
+- [ ] fieldset
+- [ ] input
+- [ ] object
+- [ ] output
+- [ ] select
+- [ ] textarea
+- [ ] img
+- [ ] meter
+- [ ] progress
+- [ ] label
+
+------------------------------------*/
+
+button {
+  background-color: red;
 }

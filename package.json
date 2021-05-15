@@ -30,15 +30,19 @@
     "build": "sh scripts/build.sh",
     "build:all": "run-s build-css build-less build-stylus",
     "build-css": "run-s build:css build:css-min",
-    "build:css": "sass --no-source-map -s compressed src/formreset.scss dist/formreset.min.css",
-    "build:css-min": "sass --no-source-map src/formreset.scss dist/formreset.css",
+    "build:css": "sass --no-source-map src/formreset.scss dist/formreset.css",
+    "build:css-min": "sass --no-source-map -s compressed src/formreset.scss dist/formreset.min.css",
     "build-less": "sass2less src/formreset.scss dist/formreset.less",
     "build-stylus": "stylus --css dist/formreset.css dist/formreset.styl",
-    "sandbox": "npm run build:css && npx serve"
+    "sandbox": "run-p sandbox:*",
+    "sandbox:serve": "live-server --watch='sandbox/index.html,dist/formreset.css'",
+    "sandbox:watch": "onchange 'src/formreset.scss' -- npm run build:css"
   },
   "devDependencies": {
     "less-plugin-sass2less": "1.2.0",
+    "live-server": "1.2.1",
     "npm-run-all": "4.1.5",
+    "onchange": "7.1.0",
     "sass": "1.32.13",
     "shipjs": "0.23.2",
     "stylus": "0.54.8"
