@@ -1,0 +1,27 @@
+/*--------------------------------
+
+formreset.css
+
+Support tags: (https://html.spec.whatwg.org/multipage/forms.html#categories)
+- [x] button
+- [ ] fieldset
+- [ ] input
+- [ ] object
+- [ ] output
+- [ ] select
+- [ ] textarea
+- [ ] img
+- [ ] meter
+- [ ] progress
+- [ ] label
+
+------------------------------------*/
+button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: inline-block;
+  vertical-align: middle;
+  background: none;
+  line-height: 1;
+}

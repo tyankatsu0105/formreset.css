@@ -1,0 +1,17 @@
+{
+  "name": "website",
+  "scripts": {
+    "storybook": "start-storybook -p 6006 -s ./static",
+    "build-storybook": "build-storybook -s ./static"
+  },
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.netlify.com/)",
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/html": "^6.2.9",
+    "babel-loader": "^8.2.2"
+  },
+  "dependencies": {}
+}

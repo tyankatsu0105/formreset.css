@@ -34,9 +34,11 @@
     "build:css-min": "sass --no-source-map -s compressed src/formreset.scss dist/formreset.min.css",
     "build-less": "sass2less src/formreset.scss dist/formreset.less",
     "build-stylus": "stylus --css dist/formreset.css dist/formreset.styl",
-    "sandbox": "run-p sandbox:*",
-    "sandbox:serve": "live-server --watch='sandbox/index.html,dist/formreset.css'",
-    "sandbox:watch": "onchange 'src/formreset.scss' -- npm run build:css"
+    "website": "run-p website:*",
+    "website:watch": "onchange 'src/formreset.scss' -- npm run website:css",
+    "website:css": "sass --no-source-map src/formreset.scss website/static/formreset.css",
+    "website:serve": "cd website && npm run storybook",
+    "build:website": "cd website && npm run build-storybook"
   },
   "devDependencies": {
     "less-plugin-sass2less": "1.2.0",
