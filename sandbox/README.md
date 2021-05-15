@@ -1,6 +1,7 @@
 Test style at here.
-Example:
 
-- `npx create-react-app sandbox/client --template typescript`
-- cd sandbox/client
-- Add `"formreset.css": "../../"` to package.json's dependencies
+```bash
+npm run sandbox
+```
+
+http://localhost:5000/sandbox/

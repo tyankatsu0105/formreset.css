@@ -177,3 +177,4 @@ temp/
 
 sandbox/*
 !sandbox/README.md
+!sandbox/index.html

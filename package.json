@@ -33,7 +33,8 @@
     "build:css": "sass --no-source-map -s compressed src/formreset.scss dist/formreset.min.css",
     "build:css-min": "sass --no-source-map src/formreset.scss dist/formreset.css",
     "build-less": "sass2less src/formreset.scss dist/formreset.less",
-    "build-stylus": "stylus --css dist/formreset.css dist/formreset.styl"
+    "build-stylus": "stylus --css dist/formreset.css dist/formreset.styl",
+    "sandbox": "npm run build:css && npx serve"
   },
   "devDependencies": {
     "less-plugin-sass2less": "1.2.0",
