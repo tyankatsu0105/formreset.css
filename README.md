@@ -38,6 +38,7 @@ import "formreset.css";
 
 - [jgthms/minireset\.css: A tiny modern CSS reset](https://github.com/jgthms/minireset.css)
 - [Super Form Reset\.css](https://gist.github.com/anthonyshort/552543)
+- [filipelinhares/ress: 🚿 A modern CSS reset](https://github.com/filipelinhares/ress)
 
 # License(MIT)
 
