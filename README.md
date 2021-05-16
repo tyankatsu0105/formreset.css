@@ -16,12 +16,12 @@ import "formreset.css";
 
 ### Available format
 
-- /node_modules/formreset.css/formreset.css
-- /node_modules/formreset.css/formreset.min.css
-- /node_modules/formreset.css/formreset.less
-- /node_modules/formreset.css/formreset.sass
-- /node_modules/formreset.css/formreset.scss
-- /node_modules/formreset.css/formreset.styl
+- formreset.css/dist/formreset.css
+- formreset.css/dist/formreset.min.css
+- formreset.css/dist/formreset.less
+- formreset.css/dist/formreset.sass
+- formreset.css/dist/formreset.scss
+- formreset.css/dist/formreset.styl
 
 ### CDN
 
@@ -38,6 +38,7 @@ import "formreset.css";
 
 - [jgthms/minireset\.css: A tiny modern CSS reset](https://github.com/jgthms/minireset.css)
 - [Super Form Reset\.css](https://gist.github.com/anthonyshort/552543)
+- [filipelinhares/ress: 🚿 A modern CSS reset](https://github.com/filipelinhares/ress)
 
 # License(MIT)
 
