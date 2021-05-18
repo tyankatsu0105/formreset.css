@@ -3,3 +3,4 @@ export default {
 };
 
 export const Show = () => `<button type="reset">reset</button>`;
+export const Disabled = () => `<button type="reset" disabled>reset</button>`;

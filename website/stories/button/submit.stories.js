@@ -3,3 +3,4 @@ export default {
 };
 
 export const Show = () => `<button type="submit">submit</button>`;
+export const Disabled = () => `<button type="submit" disabled>submit</button>`;
